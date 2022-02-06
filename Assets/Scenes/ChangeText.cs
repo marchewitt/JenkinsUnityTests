@@ -13,7 +13,7 @@ public class ChangeText : MonoBehaviour
     {
         TextRef = this.gameObject.GetComponent<Text>();
         Assert.IsNotNull(TextRef, "TextRef can not be null");
-        ChangeTheText("Hello");
+        ChangeTheText("Hello1");
     }
 
     private void ChangeTheText(string newText)
